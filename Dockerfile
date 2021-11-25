@@ -19,4 +19,5 @@ RUN npm run build
 EXPOSE 3000
 
 # Running the app -> Docker ejecute en entorno de desarrollo [ npm run dev ]
-CMD "npm" "run" "dev"
+#CMD "npm" "run" "dev"
+CMD "npm" "run" "start"
